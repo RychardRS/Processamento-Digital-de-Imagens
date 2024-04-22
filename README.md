@@ -1,11 +1,10 @@
-# Processamento-Digital-de-Imagens
+# Processamento Digital de Imagens
 Este repositório contém os códigos desenvolvidos na disciplina de Processamento Digital de Imagens (DCA0445).
 
-# Unidade 1 localizados dentro dos limites do tamanho da imagem
+# Unidade 1
 *Und1 - Regions*: Neste exercício, o programa solicita ao usuário as coordenadas de dois pontos localizados dentro dos limites do tamanho da imagem, onde será exibido o negativo da imagem na região do retângulo definido pela localização dos pontos. A imagem gerada pode ser vista abaixo:
 
 ![biel](https://github.com/RychardRS/Processamento-Digital-de-Imagens/assets/93292522/b7768f57-331a-4cdb-9a3e-0fd760b8de80)
-
 ![bielNegativo](https://github.com/RychardRS/Processamento-Digital-de-Imagens/assets/93292522/f9530e19-e910-459d-bd61-bb483c584003)
 
 *Und1 - Trocar Regiões*: Neste exercício, o programa deverá trocar os quadrantes em diagonal na imagem, assuma que a imagem de entrada tem dimensões múltiplas de 2 para facilitar a implementação do processo de troca, na imagem abaixo, podemos ver no lado esquerdo a imagem original e na direita o resultado da execução do programa:
