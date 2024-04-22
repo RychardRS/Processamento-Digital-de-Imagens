@@ -22,6 +22,30 @@ Este repositório contém os códigos desenvolvidos na disciplina de Processamen
 2. Caso tenha cor preta em uma imagem, mas branca em outra, o resultado será cor branca.
 3. Caso tenha locais em que há transição das cores, o resultado será uma cor acinzentada.
 
+*Und1 - Esteganografia*: Nesta atividade devemos escrever um programa que recupere a imagem codificada de uma imagem resultante de esteganografia, abaixo, será exibido na esquerda a imagem original e na direita a imagem decodificada.
+
+![desafio-esteganografia](https://github.com/RychardRS/Processamento-Digital-de-Imagens/assets/93292522/dc9fe18f-e248-480b-9630-08119f73c22a)
+![decoded_output](https://github.com/RychardRS/Processamento-Digital-de-Imagens/assets/93292522/edda3c48-eed1-4cad-bcac-2fbae300d3da)
+
+*Und1 - Labeling*: Nesta prática, é possível verificar que caso existam mais de 255 objetos na cena, o processo de rotulação poderá ficar comprometido. Devemos identificar a situação em que isso ocorre e propor uma solução para este problema.
+
+O motivo que isso acontece é porque quando o programa se limita a usar 256 tons de cinza, indo de 0 a 255, o programa se baseia na contagem de objetos na imagem, para poder pintar, então, se existir mais de 255 objetos na imagem, o programa ficará comprometido. A solução que podemos utilizar para resolver esse problema, é realizar a leitura da imagem de forma colorida (RGB), para que tenhamos uma maior variedade de valores para contagem.
+
+Após utilizar o código de aprimoramento, do arquivo:
+https://github.com/RychardRS/Processamento-Digital-de-Imagens/blob/main/Unidade%201%20-%20PDI/Labelling/labelling.cpp 
+
+Abaixo temos a imagem original na esquerda, no meio a imagem sem bordas e na direita, a imagem final após a execução, tendo as bolhas com buraco pintadas em cinza mais escuro e as bolhas sem buracos em um cinza mais claro:
+![bolhas](https://github.com/RychardRS/Processamento-Digital-de-Imagens/assets/93292522/a9012454-ff17-4462-8653-ddd12bc67f1e)
+![nova-img-bolhas](https://github.com/RychardRS/Processamento-Digital-de-Imagens/assets/93292522/e19e7cb3-fe86-4e9c-bfb3-a7e32d257eb6)
+![labelling](https://github.com/RychardRS/Processamento-Digital-de-Imagens/assets/93292522/b5297157-b3f9-454b-a899-4e4dae299e11)
+
+
+
+
+
+
+
+
 
 
 
